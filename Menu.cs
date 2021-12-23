@@ -5,6 +5,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+//visualizza totale spese
+//il metodo dovrebbe restituire la somma degli importi per ogni categoria
+//ma avevo frainteso la consegna. Query che avrei dovuto usare:
+//select sum(s.Importo) as [Somma], s.IdCategoria
+//from Categorie c join Spese s on c.Id= s.IdCategoria
+//group by s.IdCategoria
 namespace GestioneSpese
 {
     internal class Menu
