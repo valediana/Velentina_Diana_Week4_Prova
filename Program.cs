@@ -1,0 +1,6 @@
+﻿
+using GestioneSpese;
+
+Menu.Start();
+
+ 
